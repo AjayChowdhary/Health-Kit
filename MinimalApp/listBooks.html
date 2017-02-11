@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Minimal JS Frontend App Example</title>
+    <script src="src/ctrl/initialize.js"></script>
+    <script src="src/model/Book.js"></script>
+    <script src="src/view/listBooks.js"></script>
+    <script>'use strict';</script>
+    <script>
+      window.addEventListener("load", pl.view.listBooks.setupUserInterface);
+    </script>
+  </head>
+  <body>
+    <h1>Public Library: List all books</h1>
+    <table id="books">
+      <thead><tr><th>ISBN</th><th>Title</th><th>Year</th></tr></thead>
+      <tbody></tbody>
+    </table>
+    <nav><a href="index.html">Back to main menu</a></nav>
+  </body>
+</html>

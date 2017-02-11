@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<center>
+
+<head>
+<link rel="stylesheet" href="mystyle.css"/>
+  <meta charset="UTF-8" />
+  <title>Get Medicines</title>
+  <script src="src/ctrl/initialize.js"></script>
+  <script src="src/model/Book.js"></script>
+  <script src="src/view/createBook.js"></script>
+  <script>
+   window.addEventListener("load", pl.view.createBook.setupUserInterface);
+  </script>
+</head>
+<body>
+<div class="container">  
+  <h1>Please enter data for medicines</h1>
+  <form id="Book">
+    <p><label>Name <input name="isbn" /></label></p>
+    <p><label>Quantity <input name="title" /></label></p>
+    <p><label>Address<input name="year" /></label></p>
+    <p><button type="button" name="commit">Save</button></p>
+  </form>
+  <nav><a href="index.html">Back to main menu</a></nav>
+</div>
+  </body>
+</center>
+</html>
