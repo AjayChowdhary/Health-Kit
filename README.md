@@ -31,14 +31,11 @@ The software part includes getting uploading the data through arduino. The data 
 Health-kit Companion
     An android app to fetch uploaded data in JSON data using Thingspeak API. The app helps the user to keep track of daily health parameters and book an appointment if the user wants or if the parameters are below a certain threshold.  
      <p>
-    <img src="https://cloud.githubusercontent.com/assets/19619541/22861451/2275b256-f13f-11e6-8e47-27b46949cb2a.png" width="300" hieght="400"/>
-    <img src="https://cloud.githubusercontent.com/assets/19619541/22861452/2278a330-f13f-11e6-8abc-fc624305e4f1.png" width="300" hieght="400"/>
+    <img src="https://cloud.githubusercontent.com/assets/19619541/22861451/2275b256-f13f-11e6-8e47-27b46949cb2a.png" width="400" hieght="600"/>
+    <img src="https://cloud.githubusercontent.com/assets/19619541/22861452/2278a330-f13f-11e6-8abc-fc624305e4f1.png" width="400" hieght="400"/>
    </p>
     An online portal to register new patients and doctors and to provide the summary of the appointment for the user.
-      <p>
-    <img src="https://cloud.githubusercontent.com/assets/19619541/22740843/33dd9d84-ee37-11e6-9615-9cc6d1c6e5bc.png" width="500" hieght="600"/>
-    <img src="https://cloud.githubusercontent.com/assets/19619541/22740844/33de4158-ee37-11e6-92b3-6117b4f6c5bd.png" width="300" hieght="400"/>
-   </p>
+     
    
    TEAM MEMBERS
    --------------
